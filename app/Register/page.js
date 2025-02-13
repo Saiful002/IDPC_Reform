@@ -166,14 +166,14 @@ const RegistrationPage = () => {
   return (
     <section className="relative flex flex-col items-center justify-center sm:px-16 md:px-16 px-6 py-16 my-8 bg-white overflow-hidden">
       {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-10 rounded-full blur-3xl"></div>
 
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
         Registration Form
       </h2>
 
-      <form onSubmit={handleSubmit} className="w-full max-w-lg text-black">
+      <form onSubmit={handleSubmit} className="w-full max-w-lg text-black bg-gray-300 p-16 rounded rounded-xl">
         {/* Name */}
         <div className="mb-4">
           <label

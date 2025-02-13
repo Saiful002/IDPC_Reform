@@ -13,9 +13,10 @@ const About = () => {
       id="about"
       className="py-8 mt-8 relative rounded-3xl shadow-xl bg-gradient-to-br from-gray-50 via-white to-gray-200"
     >
-      {/* Background Gradient */}
+      {/* Floating Gradient Circles */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+
 
       <div className="relative z-10 max-w-6xl md:mx-auto mx-2 text-left md:text-left sm:my-16 md:my-16">
         <h2 className="text-4xl font-bold mb-6 text-black">

@@ -3,6 +3,8 @@ import React from "react";
 const PrizePool = () => {
   return (
     <section className="mt-16 min-h-screen p-6 md:p-12 lg:p-16 bg-white">
+      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-10 rounded-full blur-3xl"></div>
       {/* Header Section */}
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-900">🏆 Prize Pool</h2>

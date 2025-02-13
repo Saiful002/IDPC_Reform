@@ -4,7 +4,7 @@ import logo from "../../public/Images/idpcTransparent.png";
 
 const Footer = () => {
   return (
-    <footer className="md:mt-32 mt-16 py-10 bg-white rounded-2xl">
+    <footer className="md:mt-32 mt-16 py-10 bg-white rounded-2xl shadow shadow-xl shadow-gray-800">
       <div className="max-w-6xl mx-auto px-6 flex flex-col lg:flex-row items-center lg:items-start justify-evenly">
         {/* Logo */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left mb-8 lg:mb-0">

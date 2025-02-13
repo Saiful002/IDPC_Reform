@@ -4,6 +4,7 @@ import gucpa from "../../public/Images/gubcpa.png";
 export default function AboutGUBCPA() {
   return (
     <div className="min-h-screen bg-white p-6 md:p-12 lg:p-16">
+      
       <div className="max-w-7xl mx-auto">
         {/* About GUBCPA */}
         <div className="flex flex-col md:flex-row items-center gap-10 justify-center mt-10">
@@ -34,7 +35,7 @@ export default function AboutGUBCPA() {
               alt="GUBCPA Logo"
               width={500}
               height={500}
-              className="rounded-lg shadow-xl shadow-gray-300"
+              className="rounded-lg shadow-xl shadow-yellow-300"
             />
           </div>
         </div>

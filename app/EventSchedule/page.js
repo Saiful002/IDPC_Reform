@@ -3,6 +3,8 @@ import React from "react";
 const EventSchedule = () => {
   return (
     <section className="py-16 px-4 md:px-8 bg-white flex flex-col space-y-32">
+      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
       {/* Event Overview */}
       <section className="max-w-6xl mx-auto px-6 mt-8">
         <h2 className="text-4xl font-bold text-gray-900 mb-6 text-left">
@@ -38,7 +40,7 @@ const EventSchedule = () => {
       </section>
 
       {/* Timeline Section */}
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-gray-100 flex flex-col items-center">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-900">Timeline</h2>
         </div>
@@ -59,7 +61,7 @@ const EventSchedule = () => {
         </div>
 
         {/* Mock & Main Contest Section */}
-        <div className="mt-12 flex flex-col md:flex-row justify-center items-start md:items-center gap-12 bg-yellow-600 p-8 rounded-lg shadow-lg">
+        <div className="mt-12 flex flex-col md:flex-row justify-center items-start md:items-center gap-12 bg-yellow-600 p-8 md:mx-32 rounded-lg shadow-lg shadow-yellow-300">
           {/* Mock Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-3xl font-bold text-white">

@@ -27,10 +27,10 @@ const Countdown = () => {
   }, []);
 
   return (
-    <section className="relative flex flex-col items-center justify-center py-16 bg-gradient-to-br from-gray-50 via-white to-gray-200">
-      {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-32 h-48 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+    <section className="relative flex flex-col items-center justify-center py-16 bg-gradient-to-br from-gray-50 via-white to-gray-200 mt-16">
+       {/* Floating Gradient Circles */}
+       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
 
       {/* Glassmorphism Background Layer */}
       <div className="absolute inset-0 bg-white/30 backdrop-blur-lg rounded-3xl shadow-lg"></div>

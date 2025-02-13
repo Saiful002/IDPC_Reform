@@ -6,10 +6,10 @@ const Organizer = () => {
   return (
     <section
       id="about"
-      className="py-8 mt-8 relative rounded-3xl shadow-xl bg-gradient-to-br from-gray-50 via-white to-gray-200"
+      className="py-8 mt-16 relative rounded-3xl shadow-xl bg-gradient-to-br from-gray-50 via-white to-gray-200"
     >
-      {/* Background Gradient */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
+       {/* Floating Gradient Circles */}
+       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6 sm:my-16 md:my-16">
         {/* Left Text Content */}
