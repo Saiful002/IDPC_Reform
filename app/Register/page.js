@@ -173,7 +173,7 @@ const RegistrationPage = () => {
         Registration Form
       </h2>
 
-      <form onSubmit={handleSubmit} className="w-full max-w-lg">
+      <form onSubmit={handleSubmit} className="w-full max-w-lg text-black">
         {/* Name */}
         <div className="mb-4">
           <label

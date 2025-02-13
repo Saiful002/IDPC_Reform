@@ -29,19 +29,19 @@ const Countdown = () => {
   return (
     <section className="relative flex flex-col items-center justify-center py-16 bg-gradient-to-br from-gray-50 via-white to-gray-200">
       {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-48 h-48 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-0 w-32 h-48 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
 
       {/* Glassmorphism Background Layer */}
       <div className="absolute inset-0 bg-white/30 backdrop-blur-lg rounded-3xl shadow-lg"></div>
 
       {/* Countdown Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col items-center justify-center space-y-8">
+      <div className="relative z-10 max-w-6xl flex flex-col items-center justify-center space-y-8">
         <h3 className="text-4xl sm:text-5xl font-extrabold leading-tight text-center text-gray-900">
           Countdown
         </h3>
 
-        <div className="flex justify-center space-x-4 sm:space-x-6 md:space-x-6 flex-nowrap">
+        <div className="flex justify-center sm:space-x-4 md:space-x-6 flex-nowrap">
           {["Days", "Hours", "Minutes", "Seconds"].map((label, index) => (
             <div
               key={label}
