@@ -21,7 +21,7 @@ const EventSchedule = () => {
       {/* Mock & Main Contest Section (Larger Size & White Background) */}
       <section className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center gap-12">
         {/* Mock Contest */}
-        <div className="w-full md:w-1/2 bg-white p-10 rounded-lg text-center shadow-lg border border-gray-200">
+        <div className="w-full md:w-1/2 bg-yellow-100 p-10 rounded-lg text-center shadow-lg border border-gray-200">
           <h3 className="text-3xl font-bold text-gray-900">Mock Contest</h3>
           <p className="text-xl font-semibold text-gray-700 mt-3">
             February 27, 2025
@@ -30,7 +30,7 @@ const EventSchedule = () => {
         </div>
 
         {/* Main Contest */}
-        <div className="w-full md:w-1/2 bg-white p-10 rounded-lg text-center shadow-lg border border-gray-200">
+        <div className="w-full md:w-1/2 bg-yellow-200 p-10 rounded-lg text-center shadow-lg border border-gray-200">
           <h3 className="text-3xl font-bold text-gray-900">Main Contest</h3>
           <p className="text-xl font-semibold text-gray-700 mt-3">
             February 28, 2025
@@ -48,41 +48,41 @@ const EventSchedule = () => {
         {/* Registration & Payment Section */}
         <div className="mt-8 flex flex-col md:flex-row gap-8 justify-center">
           {/* Registration */}
-          <div className="bg-white p-6 shadow-md rounded-lg text-center w-80">
+          <div className="bg-yellow-100 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Registration</h3>
             <p className="text-lg text-gray-600">13 Feb - 24 Feb</p>
           </div>
 
           {/* Payment */}
-          <div className="bg-white p-6 shadow-md rounded-lg text-center w-80">
+          <div className="bg-yellow-200 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Payment</h3>
             <p className="text-lg text-gray-600">13 Feb - 25 Feb</p>
           </div>
         </div>
 
         {/* Mock & Main Contest Section */}
-        <div className="mt-12 flex flex-col md:flex-row justify-center items-start md:items-center gap-12 bg-yellow-600 p-8 md:mx-32 rounded-lg shadow-lg shadow-yellow-300">
+        <div className="mt-12 flex flex-col md:flex-row justify-center items-start md:items-center gap-12 bg-yellow-200 p-8 md:mx-32 rounded-lg shadow-lg">
           {/* Mock Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h3 className="text-3xl font-bold text-white">
+            <h3 className="text-3xl font-bold text-gray-800">
               27 <span className="text-lg font-normal">FEB</span>
             </h3>
-            <h4 className="text-xl font-semibold text-white">Mock Contest</h4>
+            <h4 className="text-xl font-semibold text-gray-800">Mock Contest</h4>
 
             <div className="text-left relative pl-4 mt-4">
               <div className="mb-6">
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   10:00 AM - 4:00 PM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Credential Distribution.
                 </p>
               </div>
               <div>
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   4:00 PM - 6:00 PM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Mock Contest Time.
                 </p>
               </div>
@@ -91,49 +91,49 @@ const EventSchedule = () => {
 
           {/* Main Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h3 className="text-3xl font-bold text-white">
+            <h3 className="text-3xl font-bold text-gray-800">
               28 <span className="text-lg font-normal">FEB</span>
             </h3>
-            <h4 className="text-xl font-semibold text-white">Main Contest</h4>
+            <h4 className="text-xl font-semibold text-gray-800">Main Contest</h4>
 
             <div className="text-left relative pl-4 mt-4">
               <div className="mb-6">
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   8:30 AM - 8:45 AM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Reporting Time.
                 </p>
               </div>
               <div className="mb-6">
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   8:45 AM - 9:30 AM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Kit Distribution.
                 </p>
               </div>
               <div className="mb-6">
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   10:00 AM - 1:00 PM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Main Contest Time.
                 </p>
               </div>
               <div className="mb-6">
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   2:00 PM - 3:00 PM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Solution Discussion.
                 </p>
               </div>
               <div>
-                <p className="font-bold text-white text-lg">
+                <p className="font-bold text-gray-600 text-lg">
                   3:00 PM - 4:00 PM
                 </p>
-                <p className="text-white border-l-4 border-white pl-3 mt-1">
+                <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Prize Giving Ceremony.
                 </p>
               </div>
