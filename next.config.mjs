@@ -24,12 +24,12 @@ const nextConfig = {
           },
           {
             protocol: 'https',
-            hostname: 'ecdn.dhakatribune.net',
+            hostname: 'files.cdn.printful.com',
             
           },
           {
             protocol: 'https',
-            hostname: 'play-lh.googleusercontent.com',
+            hostname: 'snackible.com',
             
           },
         ],
