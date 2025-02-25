@@ -43,11 +43,11 @@ const RegistrationPage = () => {
   const getPaymentNumber = (method) => {
     switch (method) {
       case "bkash":
-        return "017xxxxxxxx";
+        return "01879597656";
       case "nagad":
-        return "019xxxxxxxx";
+        return "01879597656";
       case "rocket":
-        return "013xxxxxxxx";
+        return "01879597656";
       default:
         return "";
     }
@@ -57,11 +57,13 @@ const RegistrationPage = () => {
   const getPaymentDetailsText = (method) => {
     switch (method) {
       case "bkash":
-        return "Pay 130 Taka to Bkash account.";
+        return "Pay 135 Taka to this (01879597656) Bkash account.";
       case "nagad":
-        return "Pay 130 Taka to Nagad account.";
+        return "Pay 135 Taka to this (01879597656) Nagad account.";
       case "rocket":
-        return "Pay 130 Taka to Rocket account.";
+        return "Pay 135 Taka to this (01879597656) Rocket account.";
+      case "cash":
+        return "Pay 130 Taka in cash to the registration desk.";
       default:
         return "";
     }
@@ -89,6 +91,10 @@ const RegistrationPage = () => {
   // Submit form data
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    
+
+    setLoading(true);
 
     const studentIdLength = formData.studentId.length;
 
@@ -173,7 +179,10 @@ const RegistrationPage = () => {
         Registration Form
       </h2>
 
-      <form onSubmit={handleSubmit} className="w-full max-w-lg text-black p-16 rounded rounded-xl">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-lg text-black p-16 rounded rounded-xl"
+      >
         {/* Name */}
         <div className="mb-4">
           <label
@@ -309,6 +318,7 @@ const RegistrationPage = () => {
             <option value="bkash">Bkash</option>
             <option value="nagad">Nagad</option>
             <option value="rocket">Rocket</option>
+            <option value="cash">Cash at Booth</option>
           </select>
         </div>
 
@@ -340,7 +350,7 @@ const RegistrationPage = () => {
         )}
 
         {/* Transaction ID */}
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label
             htmlFor="number"
             className="block text-lg font-semibold text-gray-800 mb-2"
@@ -351,14 +361,16 @@ const RegistrationPage = () => {
             type="text"
             id="number"
             name="number"
-            className="w-full px-4 py-2 border rounded-md"
+            className="w-full px-4 py-2 border rounded-md cursor-pointer touch-action-manipulation"
             value={formData.number}
             onChange={handleChange}
             required
             disabled={loading}
           />
         </div>
-        <div className="mb-4">
+
+        {/* Transaction ID */}
+        <div className="mb-4 relative">
           <label
             htmlFor="transactionId"
             className="block text-lg font-semibold text-gray-800 mb-2"
@@ -369,7 +381,7 @@ const RegistrationPage = () => {
             type="text"
             id="transactionId"
             name="transactionId"
-            className="w-full px-4 py-2 border rounded-md"
+            className="w-full px-4 py-2 border rounded-md cursor-pointer touch-action-manipulation"
             value={formData.transactionId}
             onChange={handleChange}
             required
@@ -377,22 +389,19 @@ const RegistrationPage = () => {
           />
         </div>
 
-        <div className="mb-4 text-sm text-gray-600">
-          After entering the payment details, pay <strong>130 Taka</strong> and
+        <div className="text-sm text-gray-600">
+          After entering the payment details, pay <strong>135 Taka</strong> and
           provide the transaction ID.
         </div>
 
-        {/* Register Button */}
-        {/* Register Button */}
+        {/* Submit Button Fix */}
         <button
           type="submit"
-          className={`mt-6 px-8 py-4 rounded-xl font-semibold shadow-lg border border-yellow/50
-            ${
-              loading
-                ? "bg-yellow-400 text-gray-700 cursor-not-allowed"
-                : "bg-yellow-300 text-gray-900 hover:bg-yellow-400 hover:scale-105 hover:shadow-xl hover:border-yellow-500 transition-all duration-300"
-            }
-          `}
+          className={`mt-6 px-8 py-4 rounded-xl font-semibold shadow-lg border border-yellow/50 relative cursor-pointer touch-action-manipulation ${
+            loading
+              ? "bg-yellow-400 text-gray-700 cursor-not-allowed"
+              : "bg-yellow-300 text-gray-900 hover:bg-yellow-400 hover:scale-105 hover:shadow-xl hover:border-yellow-500 transition-all duration-300"
+          }`}
           disabled={loading}
         >
           {loading ? (

@@ -13,13 +13,14 @@ export const metadata = {
   title: "GUB IDPC-2025",
   description:
     "Official website of GUB IDPC 2025 - The premier programming contest at Green University.",
+  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
       </head>
       <body style={{ fontFamily: "'Fira Code', monospace" }}>
         <Navbar />

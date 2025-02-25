@@ -6,11 +6,13 @@ import Organizer from "./components/Organizer";
 import Contact from "./components/Contact";
 import PrizeCard from "./components/PrizeCard";
 import ProblemSetter from "./components/ProblemSetter";
+import WhatYouWillGet from "./components/WhatYouWillGet"; 
 
 export default function Home() {
   return (
     <div className="text-white bg-gray-100">
       <HeroSection></HeroSection>
+      <WhatYouWillGet></WhatYouWillGet>
       <PrizeCard></PrizeCard>
       <Countdown></Countdown>
       <About></About>

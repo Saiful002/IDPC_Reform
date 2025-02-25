@@ -1,10 +1,14 @@
 import Image from "next/image";
 import gucpa from "../../public/Images/gubcpa.png";
+import mazedImage from "../../public/Images/mazed.jpg";
+import arnobImage from "../../public/Images/arnob.jpg";
+import noyonImage from "../../public/Images/noyon.jpg";
+import prantoImage from "../../public/Images/pranto.jpg";
+import samimImage from "../../public/Images/samim.jpg";
 
 export default function AboutGUBCPA() {
   return (
     <div className="min-h-screen bg-white p-6 md:p-12 lg:p-16">
-      
       <div className="max-w-7xl mx-auto">
         {/* About GUBCPA */}
         <div className="flex flex-col md:flex-row items-center gap-10 justify-center mt-10">
@@ -69,14 +73,18 @@ export default function AboutGUBCPA() {
         {/* Mentors Section */}
         <div className="mt-24">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center">
-            Mentors
+            Mentors (Advanced Batch)
           </h2>
           <div className="grid md:grid-cols-2 gap-10 mt-10">
             {/* Mazed Hasan Parag */}
             <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
-              <div className="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center text-3xl font-bold text-white">
-                M
-              </div>
+              <Image
+                src={mazedImage} // Replace with actual image path
+                alt="Mazed Hasan Parag"
+                width={80}
+                height={80}
+                className="rounded-full"
+              />
               <div>
                 <h3 className="text-2xl font-semibold text-gray-900">
                   Mazed Hasan Parag
@@ -89,15 +97,80 @@ export default function AboutGUBCPA() {
 
             {/* Arnab Sarker */}
             <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
-              <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center text-3xl font-bold text-white">
-                A
-              </div>
+              <Image
+                src={arnobImage} // Replace with actual image path
+                alt="Arnab Sarker"
+                width={80}
+                height={80}
+                className="rounded-full"
+              />
               <div>
                 <h3 className="text-2xl font-semibold text-gray-900">
                   Arnab Sarker
                 </h3>
                 <p className="text-gray-700">
                   KUET, ICPC World Finalist (2024)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-24">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center">
+            Mentors (Beginner Batch)
+          </h2>
+          <div className="grid md:grid-cols-2 gap-10 mt-10">
+            {/* Mazed Hasan Parag */}
+            <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
+              <Image
+                src={noyonImage} // Replace with actual image path
+                alt="Mazed Hasan Parag"
+                width={80}
+                height={80}
+                className="rounded-full"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-900">
+                  Md. Hosain Rohman Noyon
+                </h3>
+                <p className="text-gray-700">
+                  3x ICPC Dhaka Regionalist
+                </p>
+              </div>
+            </div>
+
+            {/* Arnab Sarker */}
+            <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
+              <Image
+                src={prantoImage} // Replace with actual image path
+                alt="Arnab Sarker"
+                width={80}
+                height={80}
+                className="rounded-full"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-900">
+                  Ismatul Islam Pranto
+                </h3>
+                <p className="text-gray-700">
+                  3x ICPC Dhaka Regionalist
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
+              <Image
+                src={samimImage} // Replace with actual image path
+                alt="Arnab Sarker"
+                width={80}
+                height={80}
+                className="rounded-full"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-900">
+                  Samim Reza
+                </h3>
+                <p className="text-gray-700">
+                  3x ICPC Dhaka Regionalist
                 </p>
               </div>
             </div>

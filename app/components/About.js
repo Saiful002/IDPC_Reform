@@ -27,8 +27,7 @@ const About = () => {
           hosted by the Green University Competitive Programming Arena (GUBCPA).
           It brings together the brightest minds from Green University to
           showcase their programming skills. The contest is open to all
-          undergraduate students, with teams of three collaborating under a
-          faculty mentor.
+          undergraduate students who are <b> from 223 Batch to 251 Batch</b>.
           <br />
           <br />
           <b>Students from any department can participate</b> and

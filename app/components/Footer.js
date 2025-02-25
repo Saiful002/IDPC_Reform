@@ -31,12 +31,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-yellow-400 text-black">
-                  Sponsors & Partners
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-yellow-400 text-black">
+                <Link href="/Register" className="hover:text-yellow-400 text-black">
                   Registration
                 </Link>
               </li>
@@ -50,12 +45,12 @@ const Footer = () => {
              
              
               <li>
-                <Link href="EventSchedule" className="hover:text-yellow-400 text-black">
+                <Link href="/EventSchedule" className="hover:text-yellow-400 text-black">
                   Event Schedule
                 </Link>
               </li>
               <li>
-                <Link href="PrizePool" className="hover:text-yellow-400 text-black">
+                <Link href="/PrizePool" className="hover:text-yellow-400 text-black">
                   Prize Pool
                 </Link>
               </li>
@@ -67,7 +62,7 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="text-center mt-8 border-t border-gray-300 pt-4">
         <p className="text-sm text-black">
-          Copyright © 2025 GUB IDPC | Developed by{" "}
+          Copyright © 2025 GUBCPA | Developed by{" "}
           <Link
             href="https://github.com/Saiful002"
             className="text-yellow-400 font-semibold"

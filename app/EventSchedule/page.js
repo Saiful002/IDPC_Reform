@@ -24,18 +24,20 @@ const EventSchedule = () => {
         <div className="w-full md:w-1/2 bg-yellow-100 p-10 rounded-lg text-center shadow-lg border border-gray-200">
           <h3 className="text-3xl font-bold text-gray-900">Mock Contest</h3>
           <p className="text-xl font-semibold text-gray-700 mt-3">
-            February 27, 2025
+            March 07, 2025
           </p>
           <p className="text-gray-800 mt-1 text-lg">4:00 PM - 6:00 PM</p>
+          <p className="text-gray-800 mt-1 text-lg">Online</p>
         </div>
 
         {/* Main Contest */}
         <div className="w-full md:w-1/2 bg-yellow-200 p-10 rounded-lg text-center shadow-lg border border-gray-200">
           <h3 className="text-3xl font-bold text-gray-900">Main Contest</h3>
           <p className="text-xl font-semibold text-gray-700 mt-3">
-            February 28, 2025
+            March 08, 2025
           </p>
           <p className="text-gray-800 mt-1 text-lg">10:00 AM - 1:00 PM</p>
+          <p className="text-gray-800 mt-1 text-lg">Room: TBA</p>
         </div>
       </section>
 
@@ -50,13 +52,13 @@ const EventSchedule = () => {
           {/* Registration */}
           <div className="bg-yellow-100 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Registration</h3>
-            <p className="text-lg text-gray-600">13 Feb - 24 Feb</p>
+            <p className="text-lg text-gray-600">17 Feb - 02 March</p>
           </div>
 
           {/* Payment */}
           <div className="bg-yellow-200 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Payment</h3>
-            <p className="text-lg text-gray-600">13 Feb - 25 Feb</p>
+            <p className="text-lg text-gray-600">17 Feb - 02 March</p>
           </div>
         </div>
 
@@ -65,7 +67,7 @@ const EventSchedule = () => {
           {/* Mock Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-3xl font-bold text-gray-800">
-              27 <span className="text-lg font-normal">FEB</span>
+              07 <span className="text-lg font-normal">MAR</span>
             </h3>
             <h4 className="text-xl font-semibold text-gray-800">Mock Contest</h4>
 
@@ -92,7 +94,7 @@ const EventSchedule = () => {
           {/* Main Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-3xl font-bold text-gray-800">
-              28 <span className="text-lg font-normal">FEB</span>
+              08 <span className="text-lg font-normal">MAR</span>
             </h3>
             <h4 className="text-xl font-semibold text-gray-800">Main Contest</h4>
 

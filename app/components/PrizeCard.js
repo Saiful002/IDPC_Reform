@@ -29,8 +29,14 @@ const PrizeCard = () => {
             className="text-5xl sm:text-6xl font-extrabold bg-gradient-to-r 
           from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text"
           >
-            30K+ Prize Pool
+            20K+ Prize Pool
           </h2>
+          <h3
+            className="text-2xl sm:text-2xl font-extrabold bg-gradient-to-r 
+          from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text"
+          >
+            IDPC + IDMO
+          </h3>
 
           {/* Subtext */}
           <p className="text-lg font-medium text-gray-800">

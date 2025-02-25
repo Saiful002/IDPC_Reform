@@ -74,30 +74,6 @@ const PrizePool = () => {
 {/* kits */}
 
 
-<div className="max-w-6xl mx-auto text-center mt-32">
-        <h2 className="text-4xl font-bold text-gray-900">What you will get</h2>
-      </div>
-
-<div className="max-w-6xl mx-auto px-6 mt-16">
-        <div className="grid md:grid-cols-2 gap-8">
-          {kits.map((kit, index) => (
-            <div key={index} className="bg-gradient-to-r from-blue-400 to-blue-600 p-6 rounded-2xl shadow-lg text-center">
-              {/* Title for each card */}
-              <h2 className="text-3xl font-bold mb-4">{kit.title}</h2>
-
-              <Image
-                src={kit.src}
-                alt="name"
-                width={500}
-                height={800}
-                className="w-64 h-64 mx-auto rounded-6 mb-4"
-              />
-             
-            </div>
-          ))}
-        </div>
-      </div>
-
 
 
     </section>

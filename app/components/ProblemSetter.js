@@ -4,18 +4,25 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import SaifulImage from "../../public/Images/saiful.jpg";
+import samimImage from "../../public/Images/samim.jpg";
+import prantoImage from "../../public/Images/pranto.jpg";
+import noyonImage from "../../public/Images/noyon.jpg";
+import deanImage from "../../public/Images/dean.jpg";
+import chairImage from "../../public/Images/chairperson.jpg";
+import fahimImage from "../../public/Images/fahim.jpeg";
 import "swiper/css";
 import "swiper/css/autoplay";
 import Image from "next/image";
 
 const ProblemSettersSlider = () => {
   const problemSetters = [
-    { name: "John Doe", image: SaifulImage, role: "Website Developer" },
-    { name: "Jane Smith", image: SaifulImage, role: "test" },
-    { name: "Michael Clark", image: "/path/to/image3.jpg", role: "tes" },
-    { name: "Sarah Lee", image: "/path/to/image4.jpg", role: "t" },
-    { name: "Sarah Lee", image: "/path/to/image4.jpg", role: "t" },
-    { name: "Sarah Lee", image: "/path/to/image4.jpg", role: "t" },
+    { name: "Professor Dr. Md. Saiful Azad", image: deanImage, role: "Dean, Faculty of Science & Engineering" },
+    { name: "Dr. Muhammad Aminur Rahman", image: chairImage, role: "Chairperson, Department of CSE" },
+    { name: "Md. Fahimul Islam Fahim", image: fahimImage, role: "Organizing Head" },
+    { name: "Saiful Kabir Chowdhury", image: SaifulImage, role: "Event Website Developer" },
+    { name: "Md. Hosain Rohman Noyon", image: noyonImage, role: "Organizer & Problem Setter" },
+    { name: "Ismatul Islam Pranto", image: prantoImage, role: "Organizer & Developer of GreenOJ" },
+    { name: "Samim Reza", image: samimImage, role: "Organizer & Problem Setter" },
   ];
 
   return (
@@ -53,7 +60,7 @@ const ProblemSettersSlider = () => {
               className="flex flex-col items-center justify-center"
             >
               <div className="mx-auto w-64 h-64 rounded-full overflow-hidden shadow-xl mb-4">
-                <Image src={setter.image} width={200} height={200} alt={setter.name} />
+                <Image src={setter.image} width={300} height={300} alt={setter.name} />
               </div>
               <h2 className="text-2xl font-semibold text-gray-800 text-center">
                 {setter.name}

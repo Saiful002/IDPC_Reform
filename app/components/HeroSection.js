@@ -37,14 +37,14 @@ const HeroSection = () => {
               href="/EventSchedule"
               className="text-lg font-semibold text-gray-800"
             >
-              Mock Contest: <span className="font-bold">27 February 2025</span>
+              Mock Contest: <span className="font-bold">07 March 2025</span>
             </Link>
           </div>
 
           <div className="flex items-center space-x-3 p-4 bg-yellow-200 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
             <MdOutlineEmojiEvents className="text-yellow-700 text-2xl" />
             <p className="text-lg font-semibold text-gray-800">
-              Main Contest: <span className="font-bold">28 February 2025</span>
+              Main Contest: <span className="font-bold">08 March 2025</span>
             </p>
           </div>
         </div>
