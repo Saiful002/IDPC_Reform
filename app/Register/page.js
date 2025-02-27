@@ -19,6 +19,7 @@ const RegistrationPage = () => {
     bkashNumber: "",
     transactionId: "",
     number: "",
+    tshirtSize: "",
   });
 
   const [paymentNumber, setPaymentNumber] = useState("");
@@ -79,7 +80,8 @@ const RegistrationPage = () => {
       !formData.batch ||
       !formData.paymentMethod ||
       !formData.transactionId ||
-      !formData.number
+      !formData.number ||
+      !formData.tshirtSize
     ) {
       return false;
     }
@@ -87,7 +89,6 @@ const RegistrationPage = () => {
     return true;
   };
 
-  // Submit form data
   // Submit form data
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -294,6 +295,31 @@ const RegistrationPage = () => {
             <option value="241">241</option>
             <option value="242">242</option>
             <option value="251">251</option>
+          </select>
+        </div>
+        {/* Tshirt Size */}
+        <div className="mb-4">
+          <label
+            htmlFor="tshirtSize"
+            className="block text-lg font-semibold text-gray-800 mb-2"
+          >
+            Tshirt Size
+          </label>
+          <select
+            id="tshirtSize"
+            name="tshirtSize"
+            className="w-full px-4 py-2 border rounded-md"
+            value={formData.tshirtSize}
+            onChange={handleChange}
+            required
+            disabled={loading}
+          >
+            <option value="">Select Tshirt Size</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
           </select>
         </div>
 
