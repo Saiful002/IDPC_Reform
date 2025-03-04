@@ -34,9 +34,9 @@ const EventSchedule = () => {
         <div className="w-full md:w-1/2 bg-yellow-200 p-10 rounded-lg text-center shadow-lg border border-gray-200">
           <h3 className="text-3xl font-bold text-gray-900">Main Contest</h3>
           <p className="text-xl font-semibold text-gray-700 mt-3">
-            March 09, 2025
+            March 10, 2025
           </p>
-          <p className="text-gray-800 mt-1 text-lg">10:00 AM - 1:00 PM</p>
+          <p className="text-gray-800 mt-1 text-lg">9:30 AM - 12:30 PM</p>
           <p className="text-gray-800 mt-1 text-lg">Room: TBA</p>
         </div>
       </section>
@@ -52,13 +52,13 @@ const EventSchedule = () => {
           {/* Registration */}
           <div className="bg-yellow-100 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Registration</h3>
-            <p className="text-lg text-gray-600">17 Feb - 04 March</p>
+            <p className="text-lg text-gray-600">17 Feb - 06 March</p>
           </div>
 
           {/* Payment */}
           <div className="bg-yellow-200 p-6 shadow-md rounded-lg text-center w-80">
             <h3 className="text-2xl font-bold text-gray-800">Payment</h3>
-            <p className="text-lg text-gray-600">17 Feb - 04 March</p>
+            <p className="text-lg text-gray-600">17 Feb - 06 March</p>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const EventSchedule = () => {
           {/* Mock Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-3xl font-bold text-gray-800">
-              07 <span className="text-lg font-normal">MAR</span>
+              09 <span className="text-lg font-normal">MAR</span>
             </h3>
             <h4 className="text-xl font-semibold text-gray-800">Mock Contest</h4>
 
@@ -94,14 +94,14 @@ const EventSchedule = () => {
           {/* Main Contest */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-3xl font-bold text-gray-800">
-              09 <span className="text-lg font-normal">MAR</span>
+              10 <span className="text-lg font-normal">MAR</span>
             </h3>
             <h4 className="text-xl font-semibold text-gray-800">Main Contest</h4>
 
             <div className="text-left relative pl-4 mt-4">
               <div className="mb-6">
                 <p className="font-bold text-gray-600 text-lg">
-                  8:30 AM - 8:45 AM
+                  8:00 AM - 8:30 AM
                 </p>
                 <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Reporting Time.
@@ -109,7 +109,7 @@ const EventSchedule = () => {
               </div>
               <div className="mb-6">
                 <p className="font-bold text-gray-600 text-lg">
-                  8:45 AM - 9:30 AM
+                  8:30 AM - 9:10 AM
                 </p>
                 <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Kit Distribution.
@@ -117,7 +117,7 @@ const EventSchedule = () => {
               </div>
               <div className="mb-6">
                 <p className="font-bold text-gray-600 text-lg">
-                  10:00 AM - 1:00 PM
+                  9:30 AM - 12:30 PM
                 </p>
                 <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Main Contest Time.
@@ -125,7 +125,7 @@ const EventSchedule = () => {
               </div>
               <div className="mb-6">
                 <p className="font-bold text-gray-600 text-lg">
-                  2:00 PM - 3:00 PM
+                  1:00 PM - 2:00 PM
                 </p>
                 <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Solution Discussion.
@@ -133,7 +133,7 @@ const EventSchedule = () => {
               </div>
               <div>
                 <p className="font-bold text-gray-600 text-lg">
-                  3:00 PM - 4:00 PM
+                  2:00 PM - 3:00 PM
                 </p>
                 <p className="text-gray-600 border-l-4 border-gray-800 pl-3 mt-1">
                   Prize Giving Ceremony.
