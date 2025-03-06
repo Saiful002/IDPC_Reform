@@ -107,10 +107,10 @@ const Navbar = () => {
             Prize Pool
           </Link>
           <Link
-            href="/Register"
+            href="/AllRegistered"
             className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
           >
-            Registration
+            Student Info
           </Link>
         </nav>
 
