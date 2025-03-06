@@ -68,7 +68,7 @@ export default function Page() {
               <th className="border border-gray-300 px-4 py-2">T-Shirt Size</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-black">
             {filteredParticipants.map((participant) => (
               <tr
                 key={participant.id}
