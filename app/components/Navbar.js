@@ -160,11 +160,11 @@ const Navbar = () => {
           Schedule
         </Link>
         <Link
-          href="/Register"
+          href="/AllRegistered"
           className="text-xl hover:text-yellow-400"
           onClick={toggleMenu}
         >
-          Registration
+          Student Info
         </Link>
       </nav>
     </header>
