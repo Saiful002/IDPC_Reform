@@ -7,6 +7,7 @@ interface Participant {
   name: string;
   studentId: string;
   tshirtSize: string;
+  email: string;
 }
 
 export default function Page() {
@@ -64,6 +65,7 @@ export default function Page() {
             <tr className="bg-gray-200">
               <th className="border border-gray-300 px-4 py-2">ID</th>
               <th className="border border-gray-300 px-4 py-2">Name</th>
+              <th className="border border-gray-300 px-4 py-2">Email</th>
               <th className="border border-gray-300 px-4 py-2">Student ID</th>
               <th className="border border-gray-300 px-4 py-2">T-Shirt Size</th>
             </tr>
@@ -79,6 +81,9 @@ export default function Page() {
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
                   {participant.name}
+                </td>
+                <td className="border border-gray-300 px-4 py-2">
+                  {participant.email}
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
                   {participant.studentId}
